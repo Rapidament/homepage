@@ -27,11 +27,7 @@ const Index = ({
           <Wordmark width={300} height="100%" stroke="#d1cec8" background="#161f2b" />
         </header>
         <section className="content">
-          {currentLanguage.body(({ children }) => (
-            <Link href={`/faq?lang=${currentLanguage.name}`}>
-              <a>{children}</a>
-            </Link>
-          ))}
+          <currentLanguage.body.default />
           <hr />
           <p>
             <span className="icon">
