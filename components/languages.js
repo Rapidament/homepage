@@ -23,6 +23,7 @@ export const LANGUAGES = {
   ee: 'Estonian',
   vn: 'Vietnamese',
   jp: 'Japanese',
+  tr: 'Turkish',
   tw: 'TraditionalChinese',
   cn: 'SimplifiedChinese'
 };
